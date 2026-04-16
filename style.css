@@ -55,7 +55,7 @@ body { line-height: 1.6; }
     align-items: center;
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), 
-    url('./car.jpg') no-repeat bottom/cover;        color: white;
+    url('./car1.jpg') no-repeat bottom/cover;        color: white;
 }
 
 .btn {
@@ -159,7 +159,12 @@ body { line-height: 1.6; }
     align-items: center;
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), 
-    url('./car.jpg') no-repeat left/cover;        color: white;
+    url('./responsivecar.jpg') no-repeat center/cover ;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    
+         color: white;
 }
 }
 
